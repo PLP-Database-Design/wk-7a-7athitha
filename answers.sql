@@ -1,7 +1,7 @@
 CREATE DATABASE Normalizationdb;
 USE Normalizationdb;
 
--- Question 1: Achieving 1NF (First Normal Form)
+-- Question 1: 
 CREATE TABLE ProductDetail (
     OrderID INT,
     CustomerName VARCHAR(100),
@@ -26,7 +26,7 @@ FROM
 ORDER BY 
     OrderID;
 
--- Question 2: Achieving 1NF (First Normal Form)
+-- Question 2: 
 CREATE TABLE Orders (
     OrderID INT PRIMARY KEY,
     CustomerName VARCHAR(100)
